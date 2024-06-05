@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon -->
+    <link rel="icon" href="./assets/img/icon.png">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/cli.min.js" integrity="sha512-RSaf/gTOktvVzq/4xHViPvFe0v5rDZ2VmayfWiaIRNoql91be1EDF/qxGD0OGAQcCwN6BIVQ47E0loyD3msWoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/index.css">
+    <!-- title -->
+    <title>ST666 🎖️ TRANG CHỦ CHÍNH THỨC UY TÍN HÀNG ĐẦU VIỆT NAM ✔️</title>
+</head>
+<body>
+    <header class="w-[100%] p-2 inline-block md:flex justify-between items-center sticky top-0 z-[99] transition-all duration-500" id="header">
+        <div class="logo md:w-[300px] md:m-0 w-[100%] m-auto flex justify-between items-center">
+            <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">
+                <img src="./assets/img/logo.png" alt="" class="w-[200px]">
+            </a>
+            <i class="fa fa-list w-10 h-10 border border-blue-600 rounded-md flex justify-center items-center text-white text-[20px] font-bold cursor-pointer md:hidden" onclick="ShowNav(this)"></i>
+        </div>
+        <div class="btn md:w-[300px] md:m-0 w-[90%] m-auto flex justify-between items-center *:w-[45%] *:m-auto *:text-center mt-3 md:mt-0">
+            <div class="name">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">
+                    <p class="border-2 border-yellow-600 bg-yellow-500 rounded-full p-1.5 text-white">ĐĂNG KÝ</p>
+                </a>
+            </div>
+            <div class="name">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">
+                    <p class="border-2 border-yellow-500 rounded-full p-1.5 text-white">ĐĂNG NHẬP</p>
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="w-[100%] bg-white shadow p-2">
+        <div class="logo w-[100%] p-2 md:hidden">
+            <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">
+                <img src="./assets/img/logo.png" alt="" class="w-[200px] m-auto">
+            </a>
+        </div>
+        <ul class="max-w-[1200px] m-auto flex justify-center items-center *:p-1.5 gap-2 *:text-red-500 *:font-bold *:text-xs lg:*:text-sm lg:gap-4 lg:*:p-2">
+            <li class="hover:text-red-700 transition-all duration-300">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">HƯỚNG DẪN</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">CASINO</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">THỂ THAO</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">XỔ SỐ</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">ĐÁ GÀ</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">BẮN CÁ</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">ESPORT</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">NỔ HŨ</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">KHUYẾN MÃI</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">TIN TỨC</a>
+            </li>
+            <li class="hover:text-red-700 transition-all duration-300">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">LIÊN HỆ</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- slide -->
+    <div class="swiper slide w-full">
+        <div class="swiper-wrapper *:w-full *:overflow-hidden">
+            <div class="swiper-slide">
+                <img src="./assets/img/slide/5.jpg" alt="" class="w-full">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/img/slide/2.jpg" alt="" class="w-full">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/img/slide/3.jpg" alt="" class="w-full">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/img/slide/4.jpg" alt="" class="w-full">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/img/slide/1.jpg" alt="" class="w-full">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/img/slide/6.jpg" alt="" class="w-full">
+            </div>
+            <div class="swiper-slide">
+                <img src="./assets/img/slide/7.jpg" alt="" class="w-full">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- blog -->
+    <div class="blog max-w-[1200px] m-auto my-5 md:my-10 p-4 sm:p-3 md:p-2">
+        <div class="blog-1 w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 *:p-2 *:shadow-lg *:rounded-[10px] *:border">
+            <div class="box hover:scale-105 transition-all duration-300">
+                <a href="./casino.html">
+                    <div class="image rounded-[10px] overflow-hidden">
+                        <img src="./assets/img/thumnail/casino.jpg" alt="">
+                    </div>
+                    <div class="des">
+                        <h1 class="text-md sm:text-lg md:text-xl font-bold text-center py-1 text-red-600 truncate">Casino ST666 trực tuyến là gì</h1>
+                        <p class="text-xs sm:text-sm md:text-md font-bold text-center py-1 text-gray-600 truncate">Casino ST666 trực tuyến là sòng bài online hay là sòng bạc ảo.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box hover:scale-105 transition-all duration-300">
+                <a href="./thethao.html">
+                    <div class="image rounded-[10px] overflow-hidden">
+                        <img src="./assets/img/thumnail/ball.jpg" alt="">
+                    </div>
+                    <div class="des">
+                        <h1 class="text-md sm:text-lg md:text-xl font-bold text-center py-1 text-red-600 truncate">Thể thao ST666 là gì?</h1>
+                        <p class="text-xs sm:text-sm md:text-md font-bold text-center py-1 text-gray-600 truncate">Thể thao ST666 là một sảnh cược vô cùng đặc biệt tại nhà cái.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box hover:scale-105 transition-all duration-300">
+                <a href="./xoso.html">
+                    <div class="image rounded-[10px] overflow-hidden">
+                        <img src="./assets/img/thumnail/xoso.jpg" alt="">
+                    </div>
+                    <div class="des">
+                        <h1 class="text-md sm:text-lg md:text-xl font-bold text-center py-1 text-red-600 truncate">Giới thiệu xổ số ST666?</h1>
+                        <p class="text-xs sm:text-sm md:text-md font-bold text-center py-1 text-gray-600 truncate">Xổ số ST666 là địa chỉ cá cược lô đề xổ số với tỷ lệ trả thưởng lớn nhất hiện nay.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box hover:scale-105 transition-all duration-300">
+                <a href="./daga.html">
+                    <div class="image rounded-[10px] overflow-hidden">
+                        <img src="./assets/img/thumnail/chicken.jpg" alt="">
+                    </div>
+                    <div class="des">
+                        <h1 class="text-md sm:text-lg md:text-xl font-bold text-center py-1 text-red-600 truncate">Đá gà trực tuyến là gì?</h1>
+                        <p class="text-xs sm:text-sm md:text-md font-bold text-center py-1 text-gray-600 truncate">Đá gà ST666 là một loại hình cá cược online với nội dung chính là việc đặt cược và những trận đá gà.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box hover:scale-105 transition-all duration-300">
+                <a href="./banca.html">
+                    <div class="image rounded-[10px] overflow-hidden">
+                        <img src="./assets/img/thumnail/fish.jpg" alt="">
+                    </div>
+                    <div class="des">
+                        <h1 class="text-md sm:text-lg md:text-xl font-bold text-center py-1 text-red-600 truncate">Bắn cá trực tuyến là gì?</h1>
+                        <p class="text-xs sm:text-sm md:text-md font-bold text-center py-1 text-gray-600 truncate">Bắn cá ST666 là tựa trò chơi bắn cá giải trí trực tuyến được yêu thích hàng đầu hiện nay tại ST666.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box hover:scale-105 transition-all duration-300">
+                <a href="./nohu.html">
+                    <div class="image rounded-[10px] overflow-hidden">
+                        <img src="./assets/img/thumnail/slots.jpg" alt="">
+                    </div>
+                    <div class="des">
+                        <h1 class="text-md sm:text-lg md:text-xl font-bold text-center py-1 text-red-600 truncate">Nổ hũ ST666 là gì?</h1>
+                        <p class="text-xs sm:text-sm md:text-md font-bold text-center py-1 text-gray-600 truncate">Nổ hũ ST666 là trò chơi mà người chơi cần phải thực hiện các vòng quay.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper small_slide max-w-[1200px] m-auto mb-5 sm:mb-10 rounded-[10px] p-4 sm:p-3 md:p-2">
+        <h1 class="text-2xl text-center py-5 font-bold text-blue-800">TIN THỂ THAO MỚI NHẤT</h1>
+        <div class="swiper-wrapper *:w-full *:overflow-hidden *:rounded-[10px] *:p-2 *:border">
+            <div class="swiper-slide">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">
+                    <img src="./assets/img/small_slide/1.jpg" alt="" class="w-full rounded-[10px]">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">
+                    <img src="./assets/img/small_slide/2.jpg" alt="" class="w-full rounded-[10px]">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">
+                    <img src="./assets/img/small_slide/3.jpg" alt="" class="w-full rounded-[10px]">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">
+                    <img src="./assets/img/small_slide/4.jpg" alt="" class="w-full rounded-[10px]">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">
+                    <img src="./assets/img/small_slide/5.jpg" alt="" class="w-full rounded-[10px]">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">
+                    <img src="./assets/img/small_slide/6.jpg" alt="" class="w-full rounded-[10px]">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+     <footer class="w-[100%] p-2">
+        <div class="main max-w-[1200px] m-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 *:py-2">
+            <div class="box">
+                <div class="logo w-[200px] py-1">
+                    <a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">
+                        <img src="./assets/img/logo.png" alt="" class="w-full">
+                    </a>
+                </div>
+                <p class="text-white py-1 text-xs sm:text-sm">
+                    Chúng tôi là nhà cái ST666, mang đến sân chơi cá cược trực tuyến đẳng cấp châu Á, đạt danh hiệu top 1 nhà cái uy tín nhất 2023. Chúng tôi cung cấp các sản phẩm cá cược Thể Thao, Casino, Đá Gà, Xổ Số,... cực hấp dẫn.
+                    <br><br>
+                    Ngoài ra chúng tôi còn chia sẻ cho người chơi nhiều kiến thức tham gia cá cược hiệu quả từ những chuyên gia hàng đầu hiện nay. Chúng tôi tự hào là nhà cái đem lại trải nghiệm chơi cá cược tuyệt vời tốt nhất trong thị trường hiện nay.
+                </p>
+            </div>
+            <div class="box">
+                <h1 class="text-lg sm:text-xl text-white py-1 font-bold">HƯỚNG DẪN</h1>
+                <ul class="text-xs sm:text-sm text-white py-1 *:py-4 *:w-full *:border-b">
+                    <li class="hover:ml-2 transition-all duration-300"><a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">ĐĂNG KÝ ST666</a></li>
+                    <li class="hover:ml-2 transition-all duration-300"><a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">ĐĂNG NHẬP ST666</a></li>
+                    <li class="hover:ml-2 transition-all duration-300"><a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">NẠP TIỀN ST666</a></li>
+                    <li class="hover:ml-2 transition-all duration-300"><a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">RÚT TIỀN ST666</a></li>
+                    <li class="hover:ml-2 transition-all duration-300"><a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">TẢI APP ST666</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h1 class="text-lg sm:text-xl text-white py-1 font-bold">LIÊN KẾT HỮU ÍCH</h1>
+                <ul class="*:text-xs sm:*:text-sm *:text-white py-1 *:py-4 *:w-full *:border-b">
+                    <li class="hover:ml-2 transition-all duration-300"><a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">VỀ CHÚNG TÔI</a></li>
+                    <li class="hover:ml-2 transition-all duration-300"><a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">CHÍNH SÁCH BẢO MẬT</a></li>
+                    <li class="hover:ml-2 transition-all duration-300"><a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">ĐIỀU KHOẢN VÀ ĐIỀU KIỆN</a></li>
+                    <li class="hover:ml-2 transition-all duration-300"><a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">MIỄN TRỪ TRÁCH NHIỆM</a></li>
+                    <li class="hover:ml-2 transition-all duration-300"><a href="https://www.hay8811.com/?inviteCode=1766861" target="_blank">ĐẠI LÝ ST666</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h1 class="text-lg sm:text-xl text-white py-1 font-bold">THÔNG TIN LIÊN HỆ ST666</h1>
+                <li class="py-2 text-white text-xs sm:text-sm">Địa chỉ: 365 Phan Văn Hớn, Tân Thới Nhất, Quận 12, Thành phố Hồ Chí Minh 700000, Việt Nam</li>
+                <li class="py-2 text-white text-xs sm:text-sm">Website: https://ST666.dog</li>
+            </div>
+        </div>
+     </footer>
+    <!-- js -->
+    <script src="./assets/index.js"></script>
+</body>
+</html>
